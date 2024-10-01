@@ -13,6 +13,10 @@ export default function Halaman2() {
     return data.slice(firstPageIndex, lastPageIndex);
   }, [currentPage]);
 
+  const handlePreview = () => {
+    window.open("https://www.febspot.com/video/2467979", '_blank');
+  };
+
 return (
   <>
   
